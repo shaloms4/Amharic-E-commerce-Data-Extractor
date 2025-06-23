@@ -1,0 +1,4 @@
+telethon
+nltk
+clean-text
+python-dotenv
