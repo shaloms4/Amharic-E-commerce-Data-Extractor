@@ -1,0 +1,4920 @@
+EthioMart Task 2 — DRAFT labels for correction
+Edit data/labeled/amharic_ner.conll (token TAG per line).
+Tags: B-Product I-Product B-LOC I-LOC B-PRICE I-PRICE O
+========================================================================
+
+[1] ZemenExpress msg_id=8705 tokens=36
+Aromatherapy Essential Oil for humidifier ለቤትዎ ለቢሮዎ ለሱቅዎ ልዮ መአዛን የሚያላብስ ዋጋ፦ 400 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+  * Aromatherapy	B-Product
+  * Essential	I-Product
+  * Oil	I-Product
+  * for	I-Product
+  * humidifier	I-Product
+  * ለቤትዎ	I-Product
+  * ለቢሮዎ	I-Product
+  * ለሱቅዎ	I-Product
+  * ልዮ	I-Product
+  * መአዛን	I-Product
+  * የሚያላብስ	I-Product
+    ዋጋ፦	O
+  * 400	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[2] ZemenExpress msg_id=8676 tokens=34
+.. Baby Carrier በፈለጉት አቅጣጫ ልጅዎን በምቾት ማዘል ያስችልዎታል ዋጋ፦ 2400 ብር ውስን ፍሬ ነው ያለን አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0972684318 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Baby	B-Product
+  * Carrier	I-Product
+  * በፈለጉት	I-Product
+  * አቅጣጫ	I-Product
+  * ልጅዎን	I-Product
+  * በምቾት	I-Product
+  * ማዘል	I-Product
+  * ያስችልዎታል	I-Product
+    ዋጋ፦	O
+  * 2400	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለን	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0972684318	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[3] ZemenExpress msg_id=8542 tokens=44
+.. Sonifer 2in1 Blender Glass Blender cup 1.5L Grinder cup 50g 400w ዋጋ፦ 6500 ብር ውስን ፍሬ አድራሻ መገናኛ መሰረት ደፋር ሞል ሁለተኛ ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Sonifer	B-Product
+  * 2	I-Product
+  * in1	I-Product
+  * Blender	I-Product
+  * Glass	I-Product
+  * Blender	I-Product
+  * cup	I-Product
+  * 1.5	I-Product
+  * L	I-Product
+  * Grinder	I-Product
+  * cup	I-Product
+  * 50	I-Product
+  * g	I-Product
+  * 400	I-Product
+  * w	I-Product
+    ዋጋ፦	O
+  * 6500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    አድራሻ	O
+  * መገናኛ	B-LOC
+  * መሰረት	I-LOC
+  * ደፋር	I-LOC
+  * ሞል	I-LOC
+  * ሁለተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[4] ZemenExpress msg_id=8639 tokens=28
+.. Home Time Ceramic Iron 2200w ዋጋ፦ 6200ብር አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Home	B-Product
+  * Time	I-Product
+  * Ceramic	I-Product
+  * Iron	I-Product
+  * 2200	I-Product
+  * w	I-Product
+    ዋጋ፦	O
+  * 6200	B-PRICE
+  * ብር	I-PRICE
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[5] ZemenExpress msg_id=8488 tokens=51
+.. Multi-Purpose Wall Hooks ለባኞቤት ፎጣ መታሻ እና መሰል ነገሮችን ለማንጠልጠል ኪችንውስጥ እቃወችን ለመስቀል የራሱ መለጠፊያ ያለው 5ኪ.ግ ክብደት መሸከም የሚችል ዋጋ፦ 150 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Multi	B-Product
+  * -	I-Product
+  * Purpose	I-Product
+  * Wall	I-Product
+  * Hooks	I-Product
+  * ለባኞቤት	I-Product
+  * ፎጣ	I-Product
+  * መታሻ	I-Product
+    እና	O
+    መሰል	O
+    ነገሮችን	O
+    ለማንጠልጠል	O
+    ኪችንውስጥ	O
+    እቃወችን	O
+    ለመስቀል	O
+    የራሱ	O
+    መለጠፊያ	O
+    ያለው	O
+    5	O
+    ኪ	O
+    .	O
+    ግ	O
+    ክብደት	O
+    መሸከም	O
+    የሚችል	O
+    ዋጋ፦	O
+  * 150	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[6] ZemenExpress msg_id=8438 tokens=56
+.. Door Bottom Seal Strip Stopper በበርዎ ስር አቧራ እና ነፍሳት እንዳይገባ የሚከላከል High Quality አንደኛው ወፍራሙ Keep Hot and Cold Air isolated Reduce The Noise Outside and Door slamming No ዋጋ፦ 700ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Door	B-Product
+  * Bottom	I-Product
+  * Seal	I-Product
+  * Strip	I-Product
+  * Stopper	I-Product
+  * በበርዎ	I-Product
+  * ስር	I-Product
+  * አቧራ	I-Product
+    እና	O
+    ነፍሳት	O
+    እንዳይገባ	O
+    የሚከላከል	O
+    High	O
+    Quality	O
+    አንደኛው	O
+    ወፍራሙ	O
+    Keep	O
+    Hot	O
+    and	O
+    Cold	O
+    Air	O
+    isolated	O
+    Reduce	O
+    The	O
+    Noise	O
+    Outside	O
+    and	O
+    Door	O
+    slamming	O
+    No	O
+    ዋጋ፦	O
+  * 700	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[7] ZemenExpress msg_id=8528 tokens=44
+.. Retractable Cleaning Hair Brush Smoothing Comb Cleaning anti static Say goodbye to Tangles with the magic hair brush ዋጋ፦ 550ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Retractable	B-Product
+  * Cleaning	I-Product
+  * Hair	I-Product
+  * Brush	I-Product
+  * Smoothing	I-Product
+  * Comb	I-Product
+  * Cleaning	I-Product
+  * anti	I-Product
+  * static	I-Product
+  * Say	I-Product
+  * goodbye	I-Product
+  * to	I-Product
+  * Tangles	I-Product
+  * with	I-Product
+  * the	I-Product
+  * magic	I-Product
+  * hair	I-Product
+  * brush	I-Product
+    ዋጋ፦	O
+  * 550	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[8] ZemenExpress msg_id=8590 tokens=55
+.. 3Tier Washing machine/toilet rack የመፀዳጃ ቤትዕቃዎች መደርደሪያ ጠንካራ ብረት ሼልፉ የላሜራ ብዙ እቃወችን መያዝ የሚችል አገጣጠሙ ቀላል በራሱ የሚቆም የልብስ ማጠቢያ ማሽን እና ለሽንት ቤት የሚሆን ዋጋ፦ 3800 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * 3	B-Product
+  * Tier	I-Product
+  * Washing	I-Product
+  * machine	I-Product
+    /	O
+    toilet	O
+    rack	O
+    የመፀዳጃ	O
+    ቤትዕቃዎች	O
+    መደርደሪያ	O
+    ጠንካራ	O
+    ብረት	O
+    ሼልፉ	O
+    የላሜራ	O
+    ብዙ	O
+    እቃወችን	O
+    መያዝ	O
+    የሚችል	O
+    አገጣጠሙ	O
+    ቀላል	O
+    በራሱ	O
+    የሚቆም	O
+    የልብስ	O
+    ማጠቢያ	O
+    ማሽን	O
+    እና	O
+    ለሽንት	O
+    ቤት	O
+    የሚሆን	O
+    ዋጋ፦	O
+  * 3800	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[9] ethio_brand_collection msg_id=6261 tokens=29
+Nike High Shell Size 40,41,42,43 Price 4500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * High	I-Product
+  * Shell	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[10] ethio_brand_collection msg_id=6489 tokens=28
+Nike vqc size 40,41,42,43 Price 4800 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * vqc	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4800	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[11] ethio_brand_collection msg_id=6385 tokens=28
+Nike Tempus size 40,41,42,43 Price 4500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * Tempus	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[12] ethio_brand_collection msg_id=6443 tokens=28
+Skechers consistent 2.0 size 40,44,45 Price 4200 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * consistent	I-Product
+  * 2.0	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 44	I-Product
+  * 45	I-Product
+    Price	O
+  * 4200	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[13] ethio_brand_collection msg_id=6337 tokens=32
+እሁድ ሁሌም ክፍት ነን Adidas Campus Size 40,41,42,43 Price 3700 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * እሁድ	B-Product
+  * ሁሌም	I-Product
+  * ክፍት	I-Product
+  * ነን	I-Product
+  * Adidas	I-Product
+  * Campus	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 3700	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[14] ethio_brand_collection msg_id=6306 tokens=30
+Kavalee T size 39,40,41,42,43,44 Price 4800 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Kavalee	B-Product
+  * T	I-Product
+  * size	I-Product
+  * 39	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 4800	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[15] ethio_brand_collection msg_id=6491 tokens=29
+Air Jordan 3 size 40,41,42,43 Price 5300 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Air	B-Product
+  * Jordan	I-Product
+  * 3	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 5300	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[16] ethio_brand_collection msg_id=6534 tokens=29
+Bonai Chelsea boots Premium quality Size 43,44 Price 5500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Bonai	B-Product
+  * Chelsea	I-Product
+  * boots	I-Product
+  * Premium	I-Product
+  * quality	I-Product
+  * Size	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 5500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[17] Leyueqa msg_id=9932 tokens=56
+Dough Matt የሊጥ መዳመጫ ምንጣፍ ምንጣፉ ሊጥ የማይዝ፣ የማይንሸራተት እና ልኬት ቁጥር ያለው ሲልከን ጎማ ዋጋ 850 በተጨማሪ ከ_1000_ብር በላይ የሆኑ ሁለት_ዕቃዎች በአንድዲሊቨሪ ግዜ ሲያዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ 093344 0944109295 0946242424 አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B
+----------------------------------------
+  * Dough	B-Product
+  * Matt	I-Product
+  * የሊጥ	I-Product
+  * መዳመጫ	I-Product
+  * ምንጣፍ	I-Product
+  * ምንጣፉ	I-Product
+  * ሊጥ	I-Product
+  * የማይዝ፣	I-Product
+  * የማይንሸራተት	I-Product
+    እና	O
+    ልኬት	O
+    ቁጥር	O
+    ያለው	O
+    ሲልከን	O
+    ጎማ	O
+    ዋጋ	O
+  * 850	B-PRICE
+    በተጨማሪ	O
+    ከ_1000_ብር	O
+    በላይ	O
+    የሆኑ	O
+    ሁለት_ዕቃዎች	O
+    በአንድዲሊቨሪ	O
+    ግዜ	O
+    ሲያዙ	O
+    ስጦታ	O
+    እንልክለዎታለን	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    093344	O
+    0944109295	O
+    0946242424	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+
+[18] Leyueqa msg_id=10005 tokens=49
+super absorbant bathroom rugs Soft anti-slip water absorbent Kitchen mat Living room carpet Bathroom mat Door mat available in differnt colors and designs ዋጋ፦ትንሹ በተጨማሪ ከ_1000_ብር በላይ የሆኑ ሁለት_ዕቃዎች በአንድዲሊቨሪ ግዜ ሲያዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ 093344 0933811 0944109295
+----------------------------------------
+  * super	B-Product
+  * absorbant	I-Product
+  * bathroom	I-Product
+  * rugs	I-Product
+  * Soft	I-Product
+  * anti	I-Product
+  * -	I-Product
+  * slip	I-Product
+  * water	I-Product
+  * absorbent	I-Product
+  * Kitchen	I-Product
+  * mat	I-Product
+  * Living	I-Product
+  * room	I-Product
+  * carpet	I-Product
+  * Bathroom	I-Product
+  * mat	I-Product
+  * Door	I-Product
+  * mat	I-Product
+  * available	I-Product
+  * in	I-Product
+  * differnt	I-Product
+  * colors	I-Product
+  * and	I-Product
+  * designs	I-Product
+  * ዋጋ፦ትንሹ	I-Product
+  * በተጨማሪ	I-Product
+  * ከ_1000_ብር	I-Product
+  * በላይ	I-Product
+  * የሆኑ	I-Product
+  * ሁለት_ዕቃዎች	I-Product
+  * በአንድዲሊቨሪ	I-Product
+  * ግዜ	I-Product
+  * ሲያዙ	I-Product
+  * ስጦታ	I-Product
+  * እንልክለዎታለን	I-Product
+  * T	I-Product
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    093344	O
+    0933811	O
+    0944109295	O
+
+[19] Leyueqa msg_id=9876 tokens=62
+King Styel Onion Chopper ለስጋ፡ ለጨጓራ ለአትክልት ፨ 6ሊትር የሽንኩርትና የስጋ መፍጫ 3 የፍጥነት አማራጭ ያለው 4 ምላጭ እና ሙሉ በሙሉ ከማይዝግ ብረት የተሰራ 2000W ከፍተጝ ሞተር ሃይል Price :7500 T.me/LeyueQa ቻናላችንን ይጎብኙ 093344 0944109295 0946242424 አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B ይደዉሉልን ዌብሳይታችንን ይጎብኙ
+----------------------------------------
+  * King	B-Product
+  * Styel	I-Product
+  * Onion	I-Product
+  * Chopper	I-Product
+  * ለስጋ፡	I-Product
+  * ለጨጓራ	I-Product
+  * ለአትክልት	I-Product
+  * ፨	I-Product
+  * 6	I-Product
+  * ሊትር	I-Product
+  * የሽንኩርትና	I-Product
+  * የስጋ	I-Product
+  * መፍጫ	I-Product
+  * 3	I-Product
+  * የፍጥነት	I-Product
+  * አማራጭ	I-Product
+    ያለው	O
+    4	O
+    ምላጭ	O
+    እና	O
+    ሙሉ	O
+    በሙሉ	O
+    ከማይዝግ	O
+    ብረት	O
+    የተሰራ	O
+    2000	O
+    W	O
+    ከፍተጝ	O
+    ሞተር	O
+    ሃይል	O
+    Price	O
+    :	O
+    7500	O
+    T	O
+    .	O
+    me	O
+    /	O
+    LeyueQa	O
+    ቻናላችንን	O
+    ይጎብኙ	O
+    093344	O
+    0944109295	O
+    0946242424	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * ይደዉሉልን	I-LOC
+  * ዌብሳይታችንን	I-LOC
+  * ይጎብኙ	I-LOC
+
+[20] Leyueqa msg_id=9796 tokens=69
+Suitable for many places to clean: It is suitable for many cleaning tasks in the bathroom, cushions for example, bath mats, blankets, windows, curtains, and tables . Price 650 Additionally, for more than 1000_Birr Two_items purchased in one delivery time, we will send a gift T.me/Leyueqa Do not hesitate to share our channel with your friend 093344 0944109295 0946242424 Mob Cleaning Cleaner Leyueqa
+----------------------------------------
+  * Suitable	B-Product
+  * for	I-Product
+  * many	I-Product
+  * places	I-Product
+  * to	I-Product
+  * clean	I-Product
+    :	O
+    It	O
+    is	O
+    suitable	O
+    for	O
+    many	O
+    cleaning	O
+    tasks	O
+    in	O
+    the	O
+    bathroom	O
+    cushions	O
+    for	O
+    example	O
+    bath	O
+    mats	O
+    blankets	O
+    windows	O
+    curtains	O
+    and	O
+    tables	O
+    .	O
+    Price	O
+  * 650	B-PRICE
+    Additionally	O
+    for	O
+    more	O
+    than	O
+    1000	O
+    _Birr	O
+    Two_items	O
+    purchased	O
+    in	O
+    one	O
+    delivery	O
+    time	O
+    we	O
+    will	O
+    send	O
+    a	O
+    gift	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    Do	O
+    not	O
+    hesitate	O
+    to	O
+    share	O
+    our	O
+    channel	O
+    with	O
+    your	O
+    friend	O
+    093344	O
+    0944109295	O
+    0946242424	O
+    Mob	O
+    Cleaning	O
+    Cleaner	O
+    Leyueqa	O
+
+[21] Leyueqa msg_id=10066 tokens=64
+Super Stretch Silicon Lids 6 pack የዕቃ መሸፈኛ ሲሊከን ፕላስቲኮች በተደጋጋሚ የምንጠቀምባቸዉ በተለያዩ ሳይዞች የቀረቡ የሚለጠጥ የማይቀደድ Kitchen + Home Silicone Stretch Lids Set of 6 Silicone Food Saver Covers Superior Quality Lids that fit Reusable Temperature Resistant Food Safe ዋጋ550ብር በተጨማሪ ከ_1100_ብር በላይ የሆኑ ሁለት_ዕቃዎች በአንድዲሊቨሪ ግዜ ሲያዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ 093344 0944109295 0946242424
+----------------------------------------
+  * Super	B-Product
+  * Stretch	I-Product
+  * Silicon	I-Product
+  * Lids	I-Product
+  * 6	I-Product
+  * pack	I-Product
+  * የዕቃ	I-Product
+  * መሸፈኛ	I-Product
+  * ሲሊከን	I-Product
+  * ፕላስቲኮች	I-Product
+  * በተደጋጋሚ	I-Product
+  * የምንጠቀምባቸዉ	I-Product
+  * በተለያዩ	I-Product
+  * ሳይዞች	I-Product
+  * የቀረቡ	I-Product
+  * የሚለጠጥ	I-Product
+  * የማይቀደድ	I-Product
+  * Kitchen	I-Product
+  * +	I-Product
+  * Home	I-Product
+  * Silicone	I-Product
+  * Stretch	I-Product
+  * Lids	I-Product
+  * Set	I-Product
+  * of	I-Product
+  * 6	I-Product
+  * Silicone	I-Product
+  * Food	I-Product
+  * Saver	I-Product
+  * Covers	I-Product
+  * Superior	I-Product
+  * Quality	I-Product
+  * Lids	I-Product
+  * that	I-Product
+  * fit	I-Product
+  * Reusable	I-Product
+  * Temperature	I-Product
+  * Resistant	I-Product
+  * Food	I-Product
+  * Safe	I-Product
+  * ዋጋ550ብር	I-Product
+  * በተጨማሪ	I-Product
+  * ከ_1100_ብር	I-Product
+  * በላይ	I-Product
+  * የሆኑ	I-Product
+  * ሁለት_ዕቃዎች	I-Product
+  * በአንድዲሊቨሪ	I-Product
+  * ግዜ	I-Product
+  * ሲያዙ	I-Product
+  * ስጦታ	I-Product
+  * እንልክለዎታለን	I-Product
+  * T	I-Product
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    093344	O
+    0944109295	O
+    0946242424	O
+
+[22] Leyueqa msg_id=9986 tokens=69
+Baby Nail Trimmer 6 interchangeable Nail pads for different Ages Made for All ages have 4 speed control Safe and efficient 850 አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ ደረጃውን እንደወጡ ወደ ግራ ታጥፈው ጫፍ ላይ 114B 093344 0933811 0944109295 ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ በተጨማሪ ከ_1100_ብር በላይ የሆኑ ሁለት_ዕቃዎች ሲገዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ ዌብሳይታችንን ይጎብኙ
+----------------------------------------
+  * Baby	B-Product
+  * Nail	I-Product
+  * Trimmer	I-Product
+  * 6	I-Product
+  * interchangeable	I-Product
+  * Nail	I-Product
+  * pads	I-Product
+  * for	I-Product
+  * different	I-Product
+  * Ages	I-Product
+  * Made	I-Product
+  * for	I-Product
+  * All	I-Product
+  * ages	I-Product
+  * have	I-Product
+  * 4	I-Product
+  * speed	I-Product
+  * control	I-Product
+  * Safe	I-Product
+  * and	I-Product
+  * efficient	I-Product
+  * 850	I-Product
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * ደረጃውን	I-LOC
+  * እንደወጡ	I-LOC
+  * ወደ	I-LOC
+  * ግራ	I-LOC
+  * ታጥፈው	I-LOC
+  * ጫፍ	I-LOC
+  * ላይ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * 093344	I-LOC
+  * 0933811	I-LOC
+    0944109295	O
+    ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ	O
+    በተጨማሪ	O
+    ከ_1100_ብር	O
+    በላይ	O
+    የሆኑ	O
+    ሁለት_ዕቃዎች	O
+    ሲገዙ	O
+    ስጦታ	O
+    እንልክለዎታለን	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    ዌብሳይታችንን	O
+    ይጎብኙ	O
+
+[23] Leyueqa msg_id=9936 tokens=54
+BAMBOO PALLET SERVING TRAY ከፍተኛ ጥራት ያላቸው ከቀርቀሃ የተሰሩ ሰርቪሶች ማራኪ ውበትና አጨራረስ የብረት ዕጄታ 3ቱንም ብር ያሉበት ቦታ ያለተጨማሪ ክፍያ ይዘዙ ከነፃ ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ ደረጃውን እንደወጡ ወደ ግራ ታጥፈው ጫፍ ላይ 114B 093344 0933811 0944109295
+----------------------------------------
+  * BAMBOO	B-Product
+  * PALLET	I-Product
+  * SERVING	I-Product
+  * TRAY	I-Product
+  * ከፍተኛ	I-Product
+  * ጥራት	I-Product
+  * ያላቸው	I-Product
+  * ከቀርቀሃ	I-Product
+  * የተሰሩ	I-Product
+  * ሰርቪሶች	I-Product
+  * ማራኪ	I-Product
+  * ውበትና	I-Product
+  * አጨራረስ	I-Product
+  * የብረት	I-Product
+  * ዕጄታ	I-Product
+  * 3	I-Product
+  * ቱንም	I-Product
+    ብር	O
+    ያሉበት	O
+    ቦታ	O
+    ያለተጨማሪ	O
+    ክፍያ	O
+    ይዘዙ	O
+    ከነፃ	O
+    ያለተጨማሪ	O
+    ክፍያ	O
+    ማዘዝ	O
+    ይችላሉ	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * ደረጃውን	I-LOC
+  * እንደወጡ	I-LOC
+  * ወደ	I-LOC
+  * ግራ	I-LOC
+  * ታጥፈው	I-LOC
+  * ጫፍ	I-LOC
+  * ላይ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * 093344	I-LOC
+  * 0933811	I-LOC
+    0944109295	O
+
+[24] Leyueqa msg_id=9823 tokens=60
+Bathroom Corner Shelf የመፀዳጃ ቤት ኮርነር ላይ የሚገጠም የዕቃ መደርደሪያ 4 መደርደሪያና 1 የፎጣ መስቀያ ያለው ቁመቱ የሚረዝምና የሚያጥር ቦታ ቆጣቢና ለእይታ ማራኪ የሆነ ዋጋ፦ 3.2 የሚረዝም 3,550 ብር የሞተር አናስከፍልም ክፍያዎን_ ዕቃዉ _እጅዎ ሲደርስ_ከፈለጉ_በካሽ_አልያም_በሞባይል_ባንኪንግ_መፈፀም_ይችላሉ በተጨማሪ ከ_1000_ብር በላይ የሚተመኑ ሁለት_ዕቃዎችን_ ሲገዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ ያሉበት ድረስ በነፃ እናደርሳለን 093344 0944109295 0933811
+----------------------------------------
+  * Bathroom	B-Product
+  * Corner	I-Product
+  * Shelf	I-Product
+  * የመፀዳጃ	I-Product
+  * ቤት	I-Product
+  * ኮርነር	I-Product
+    ላይ	O
+    የሚገጠም	O
+    የዕቃ	O
+    መደርደሪያ	O
+    4	O
+    መደርደሪያና	O
+    1	O
+    የፎጣ	O
+    መስቀያ	O
+    ያለው	O
+    ቁመቱ	O
+    የሚረዝምና	O
+    የሚያጥር	O
+    ቦታ	O
+    ቆጣቢና	O
+    ለእይታ	O
+    ማራኪ	O
+    የሆነ	O
+    ዋጋ፦	O
+  * 3.2	B-PRICE
+    የሚረዝም	O
+  * 3,550	B-PRICE
+  * ብር	I-PRICE
+    የሞተር	O
+    አናስከፍልም	O
+    ክፍያዎን_	O
+    ዕቃዉ	O
+    _እጅዎ	O
+    ሲደርስ_ከፈለጉ_በካሽ_አልያም_በሞባይል_ባንኪንግ_መፈፀም_ይችላሉ	O
+    በተጨማሪ	O
+    ከ_1000_ብር	O
+    በላይ	O
+    የሚተመኑ	O
+    ሁለት_ዕቃዎችን_	O
+    ሲገዙ	O
+    ስጦታ	O
+    እንልክለዎታለን	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    ያሉበት	O
+    ድረስ	O
+    በነፃ	O
+    እናደርሳለን	O
+    093344	O
+    0944109295	O
+    0933811	O
+
+[25] MerttEka msg_id=12466 tokens=10
+የትብብር መልዕክት እስከመጨረሻው አድምጡኝ DM t.me/MerttEka
+----------------------------------------
+  * የትብብር	B-Product
+  * መልዕክት	I-Product
+  * እስከመጨረሻው	I-Product
+  * አድምጡኝ	I-Product
+  * DM	I-Product
+  * t	I-Product
+    .	O
+    me	O
+    /	O
+    MerttEka	O
+
+[26] AwasMart msg_id=17136 tokens=64
+Portable menstural heating pad በወር አበባ ወቅት ለሚመጡ ህመሞች ፍቱን መፍትሄ period pain relief high quality material portable and rechargable quick pain relief total comfort Best gift for friends, family or loved ones. ዋጋ፦ 2000ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+    Portable	O
+    menstural	O
+    heating	O
+    pad	O
+    በወር	O
+  * አበባ	B-LOC
+    ወቅት	O
+    ለሚመጡ	O
+    ህመሞች	O
+    ፍቱን	O
+    መፍትሄ	O
+    period	O
+    pain	O
+    relief	O
+    high	O
+    quality	O
+    material	O
+    portable	O
+    and	O
+    rechargable	O
+    quick	O
+    pain	O
+    relief	O
+    total	O
+    comfort	O
+    Best	O
+    gift	O
+    for	O
+    friends	O
+    family	O
+    or	O
+    loved	O
+    ones	O
+    .	O
+    ዋጋ፦	O
+  * 2000	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[27] AwasMart msg_id=17230 tokens=33
+Sonifer Hand Mixer ዋጋ፦ 2,500 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Sonifer	B-Product
+  * Hand	I-Product
+  * Mixer	I-Product
+    ዋጋ፦	O
+  * 2,500	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[28] AwasMart msg_id=17226 tokens=35
+Sonifer Hand held Steam Brush ዋጋ፦ 4,100 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Sonifer	B-Product
+  * Hand	I-Product
+  * held	I-Product
+  * Steam	I-Product
+  * Brush	I-Product
+    ዋጋ፦	O
+  * 4,100	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[29] AwasMart msg_id=17145 tokens=36
+12 pieces Rotating Spices Jar Set ዋጋ፦ 3,200 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * 12	B-Product
+  * pieces	I-Product
+  * Rotating	I-Product
+  * Spices	I-Product
+  * Jar	I-Product
+  * Set	I-Product
+    ዋጋ፦	O
+  * 3,200	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[30] AwasMart msg_id=17159 tokens=61
+Vaccuum flask set የፔርሙዝ ማግ 3 መጠጫ ኩባያዎች ያሉት ድንገት ቢወድቅ እንኳን ከማይሰበር ማቴሪያል የተሰራ 500ሚሊ ሊትር የመያዝ አቅም ያለዉ በተለያየ የከለር አማራጭ የቀረበ ለስጦታ የሚሆን የራሱ ማሸጊያና መያዣ ያለዉ ዋጋ፦ 1,200 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Vaccuum	B-Product
+  * flask	I-Product
+  * set	I-Product
+  * የፔርሙዝ	I-Product
+  * ማግ	I-Product
+  * 3	I-Product
+  * መጠጫ	I-Product
+  * ኩባያዎች	I-Product
+  * ያሉት	I-Product
+  * ድንገት	I-Product
+  * ቢወድቅ	I-Product
+  * እንኳን	I-Product
+  * ከማይሰበር	I-Product
+  * ማቴሪያል	I-Product
+  * የተሰራ	I-Product
+  * 500	I-Product
+  * ሚሊ	I-Product
+  * ሊትር	I-Product
+  * የመያዝ	I-Product
+  * አቅም	I-Product
+  * ያለዉ	I-Product
+  * በተለያየ	I-Product
+  * የከለር	I-Product
+  * አማራጭ	I-Product
+  * የቀረበ	I-Product
+  * ለስጦታ	I-Product
+  * የሚሆን	I-Product
+  * የራሱ	I-Product
+  * ማሸጊያና	I-Product
+  * መያዣ	I-Product
+  * ያለዉ	I-Product
+    ዋጋ፦	O
+  * 1,200	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[31] AwasMart msg_id=17116 tokens=36
+500ml Stainless steel Vacuum Flask ዋጋ፦ 900ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * 500	B-Product
+  * ml	I-Product
+  * Stainless	I-Product
+  * steel	I-Product
+  * Vacuum	I-Product
+  * Flask	I-Product
+    ዋጋ፦	O
+  * 900	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[32] AwasMart msg_id=17369 tokens=44
+Electric Milk Frother 2pcs ዋጋ፦ 800 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 . ቦሌ መድሐኔዓለም ቦሌ መሰናዶ ት/ቤት ፊትለፊት አለምነሽ ፕላዛ ግራውንድ +251941661030 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Electric	B-Product
+  * Milk	I-Product
+  * Frother	I-Product
+  * 2	I-Product
+  * pcs	I-Product
+    ዋጋ፦	O
+  * 800	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    .	O
+  * ቦሌ	B-LOC
+    መድሐኔዓለም	O
+  * ቦሌ	B-LOC
+    መሰናዶ	O
+    ት	O
+    /	O
+    ቤት	O
+    ፊትለፊት	O
+    አለምነሽ	O
+  * ፕላዛ	B-LOC
+    ግራውንድ	O
+    +	O
+    251941661030	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[33] AwasMart msg_id=17302 tokens=53
+Microfiber Duster with Telescopic Extension Pole በቀላሉ ቤትን ለማፅዳት ተመራጭ የሚታጠብ በምንፈልገው የርቀት ልክ በመዘርጋት ያለ ገደብ ቤታችን ለማፅዳት ተመራጭ የሚሰበሰብ ቦታ የማይዝ ዋጋ፦ 650 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Microfiber	B-Product
+  * Duster	I-Product
+  * with	I-Product
+  * Telescopic	I-Product
+  * Extension	I-Product
+  * Pole	I-Product
+  * በቀላሉ	I-Product
+  * ቤትን	I-Product
+  * ለማፅዳት	I-Product
+  * ተመራጭ	I-Product
+  * የሚታጠብ	I-Product
+  * በምንፈልገው	I-Product
+  * የርቀት	I-Product
+  * ልክ	I-Product
+  * በመዘርጋት	I-Product
+  * ያለ	I-Product
+  * ገደብ	I-Product
+  * ቤታችን	I-Product
+  * ለማፅዳት	I-Product
+  * ተመራጭ	I-Product
+  * የሚሰበሰብ	I-Product
+  * ቦታ	I-Product
+  * የማይዝ	I-Product
+    ዋጋ፦	O
+  * 650	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[34] qnashcom msg_id=5454 tokens=66
+Cleaning Gel 1000 ብር ለማዘዝ ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ ቁጥር 1 :- መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ቁጥር 2 :- ጀሞ 1 ከለላ ህንፃ ግራውንድ ለይ G05 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 / G05 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+    Cleaning	O
+    Gel	O
+  * 1000	B-PRICE
+  * ብር	I-PRICE
+    ለማዘዝ	O
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * :-	I-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ቁጥር	I-LOC
+  * 2	I-LOC
+  * :-	I-LOC
+  * ጀሞ	I-LOC
+  * 1	I-LOC
+  * ከለላ	I-LOC
+  * ህንፃ	I-LOC
+  * ግራውንድ	I-LOC
+  * ለይ	I-LOC
+  * G05	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * /	I-LOC
+  * G05	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[35] qnashcom msg_id=5546 tokens=65
+Sonic Electric Tooth Brush በተፈጥሮዊ መንገድ ጥርሳችን ለማፅዳት ተመራጭ ብሬስ ላደረጋችሁ ሰዎች በቀላሉ ጥርስን ለማፅዳት ተመራጭ Rechargeable 1500 ብር ውስን ፍሬ ነው የቀረው Limited stock Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+    Sonic	O
+    Electric	O
+    Tooth	O
+    Brush	O
+    በተፈጥሮዊ	O
+    መንገድ	O
+    ጥርሳችን	O
+    ለማፅዳት	O
+    ተመራጭ	O
+    ብሬስ	O
+    ላደረጋችሁ	O
+    ሰዎች	O
+    በቀላሉ	O
+    ጥርስን	O
+    ለማፅዳት	O
+    ተመራጭ	O
+    Rechargeable	O
+  * 1500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Limited	O
+    stock	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[36] qnashcom msg_id=5638 tokens=55
+Lint Roller ዋጋ፦ 900ብር ውስን ፍሬ ነው የቀረው Limited Stock Telegram - t.me/qnashcom Website - ጥራት ዋስትና ቅናሽ አድራሻ :- መገናኛ ዘፍመሽ ግራንድ ሞል 3ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * Lint	B-Product
+  * Roller	I-Product
+    ዋጋ፦	O
+  * 900	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Limited	O
+    Stock	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    Website	O
+    -	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * :-	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[37] qnashcom msg_id=5550 tokens=69
+ProGemei professional Hair Straightener Brush High Quality ceramic coating panel with massage head Temperature display from 300 to 750 F 360 swivel power cord ዋጋ፦3300ብር ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * ProGemei	B-Product
+  * professional	I-Product
+  * Hair	I-Product
+  * Straightener	I-Product
+  * Brush	I-Product
+  * High	I-Product
+  * Quality	I-Product
+  * ceramic	I-Product
+  * coating	I-Product
+  * panel	I-Product
+  * with	I-Product
+  * massage	I-Product
+  * head	I-Product
+  * Temperature	I-Product
+  * display	I-Product
+  * from	I-Product
+  * 300	I-Product
+  * to	I-Product
+  * 750	I-Product
+  * F	I-Product
+  * 360	I-Product
+  * swivel	I-Product
+  * power	I-Product
+  * cord	I-Product
+  * ዋጋ፦3300ብር	I-Product
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[38] qnashcom msg_id=5584 tokens=53
+Rechargeable Mini Desktop Fan ዋጋ፦ 1,100 ብር ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * Rechargeable	B-Product
+  * Mini	I-Product
+  * Desktop	I-Product
+  * Fan	I-Product
+    ዋጋ፦	O
+  * 1,100	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[39] qnashcom msg_id=5629 tokens=68
+100 Pieces Disposable Food Cover, Plastic Wrap, Stretch Food Lids, Food Containers, Kitchen Food, Sealing Bag, Kitchen Utensils ዋጋ፦ 650 ብር ለማዘዝ ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ - መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * 100	B-Product
+  * Pieces	I-Product
+  * Disposable	I-Product
+  * Food	I-Product
+  * Cover	I-Product
+  * Plastic	I-Product
+  * Wrap	I-Product
+  * Stretch	I-Product
+  * Food	I-Product
+  * Lids	I-Product
+  * Food	I-Product
+  * Containers	I-Product
+  * Kitchen	I-Product
+  * Food	I-Product
+  * Sealing	I-Product
+  * Bag	I-Product
+  * Kitchen	I-Product
+  * Utensils	I-Product
+    ዋጋ፦	O
+  * 650	B-PRICE
+  * ብር	I-PRICE
+    ለማዘዝ	O
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+    -	O
+  * መገናኛ	B-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[40] qnashcom msg_id=5631 tokens=66
+Curling brush 300 ብር ለማዘዝ ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ ቁጥር 1 :- መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ቁጥር 2 :- ጀሞ 1 ከለላ ህንፃ ግራውንድ ለይ G07 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 / G07 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+    Curling	O
+    brush	O
+  * 300	B-PRICE
+  * ብር	I-PRICE
+    ለማዘዝ	O
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * :-	I-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ቁጥር	I-LOC
+  * 2	I-LOC
+  * :-	I-LOC
+  * ጀሞ	I-LOC
+  * 1	I-LOC
+  * ከለላ	I-LOC
+  * ህንፃ	I-LOC
+  * ግራውንድ	I-LOC
+  * ለይ	I-LOC
+  * G07	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * /	I-LOC
+  * G07	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[41] qnashcom msg_id=5413 tokens=69
+Pineapple Cutter Corer, Slicer, Peeler ዋጋ፦ 1200 ብር ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ ቁጥር 1 :- መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ቁጥር 2 :- ጀሞ 1 ከለላ ህንፃ ግራውንድ ለይ G05 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 / G05 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * Pineapple	B-Product
+  * Cutter	I-Product
+  * Corer	I-Product
+  * Slicer	I-Product
+  * Peeler	I-Product
+    ዋጋ፦	O
+  * 1200	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * :-	I-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ቁጥር	I-LOC
+  * 2	I-LOC
+  * :-	I-LOC
+  * ጀሞ	I-LOC
+  * 1	I-LOC
+  * ከለላ	I-LOC
+  * ህንፃ	I-LOC
+  * ግራውንድ	I-LOC
+  * ለይ	I-LOC
+  * G05	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * /	I-LOC
+  * G05	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[42] ethio_brand_collection msg_id=6439 tokens=27
+Skechers speed Size 40,42,43 Price 4400 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * speed	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4400	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[43] ethio_brand_collection msg_id=6520 tokens=29
+Adidas bad bunny campus Size 41,42,43 Price 4800 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Adidas	B-Product
+  * bad	I-Product
+  * bunny	I-Product
+  * campus	I-Product
+  * Size	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4800	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[44] ZemenExpress msg_id=8579 tokens=46
+.. Silver Crest Single Touch Stove Touch screen control system ለአጠቃቀም በጣም ምቹ እና ዘመናዊ ቆሻሻ የማይዝ የራሱ ፋን ሲስተም ያለው ዋጋ፦ 4800ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Silver	B-Product
+  * Crest	I-Product
+  * Single	I-Product
+  * Touch	I-Product
+  * Stove	I-Product
+  * Touch	I-Product
+  * screen	I-Product
+  * control	I-Product
+  * system	I-Product
+  * ለአጠቃቀም	I-Product
+  * በጣም	I-Product
+  * ምቹ	I-Product
+    እና	O
+    ዘመናዊ	O
+    ቆሻሻ	O
+    የማይዝ	O
+    የራሱ	O
+    ፋን	O
+    ሲስተም	O
+    ያለው	O
+    ዋጋ፦	O
+  * 4800	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[45] ethio_brand_collection msg_id=6266 tokens=29
+Nike SB FC size 40,41,42,43 Price 3700 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * SB	I-Product
+  * FC	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 3700	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[46] ZemenExpress msg_id=8592 tokens=58
+.. Household sewing machine አነስተኛ የስፌት ማሽን 12 አይነት የስፌት አማራጮችን የያዘ በባትሪና በcharger direct ተሰክቶ የሚሰራ እዛዉ ላይ ጨርቆችን ለመመተር የሚያስችላችሁ አነስተኛ ሜትር እላዩ ላይ የተገጠመለት የራሱ ፔዳል ያለዉ የራሱ መቁረጫ የተገጠመለት ዋጋ፦ 7500 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Household	B-Product
+  * sewing	I-Product
+  * machine	I-Product
+  * አነስተኛ	I-Product
+  * የስፌት	I-Product
+  * ማሽን	I-Product
+  * 12	I-Product
+  * አይነት	I-Product
+  * የስፌት	I-Product
+  * አማራጮችን	I-Product
+  * የያዘ	I-Product
+  * በባትሪና	I-Product
+  * በcharger	I-Product
+  * direct	I-Product
+  * ተሰክቶ	I-Product
+  * የሚሰራ	I-Product
+  * እዛዉ	I-Product
+    ላይ	O
+    ጨርቆችን	O
+    ለመመተር	O
+    የሚያስችላችሁ	O
+    አነስተኛ	O
+    ሜትር	O
+    እላዩ	O
+    ላይ	O
+    የተገጠመለት	O
+    የራሱ	O
+    ፔዳል	O
+    ያለዉ	O
+    የራሱ	O
+    መቁረጫ	O
+    የተገጠመለት	O
+    ዋጋ፦	O
+  * 7500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[47] ethio_brand_collection msg_id=6378 tokens=30
+Nike I free run size 40,41,42,43 Price 4500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * I	I-Product
+  * free	I-Product
+  * run	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[48] Leyueqa msg_id=10010 tokens=33
+የልጆች ማቀፊያ ዋጋ2100 ብር ከነፃ ከዲሊቨሪ ጋር በተጨማሪ ከ_1000_ብር በላይ የሆኑ ሁለት_ዕቃዎች በአንድዲሊቨሪ ግዜ ሲያዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ 093344 0944109295 0946242424 baby Babyswadel Care
+----------------------------------------
+  * የልጆች	B-Product
+  * ማቀፊያ	I-Product
+  * ዋጋ2100	I-Product
+    ብር	O
+    ከነፃ	O
+    ከዲሊቨሪ	O
+    ጋር	O
+    በተጨማሪ	O
+    ከ_1000_ብር	O
+    በላይ	O
+    የሆኑ	O
+    ሁለት_ዕቃዎች	O
+    በአንድዲሊቨሪ	O
+    ግዜ	O
+    ሲያዙ	O
+    ስጦታ	O
+    እንልክለዎታለን	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    093344	O
+    0944109295	O
+    0946242424	O
+    baby	O
+    Babyswadel	O
+    Care	O
+
+[49] ethio_brand_collection msg_id=6328 tokens=31
+Nike ACG mount fly Size 40,41,42,43,44 Price 4600 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Nike	B-Product
+  * ACG	I-Product
+  * mount	I-Product
+  * fly	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 4600	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[50] ethio_brand_collection msg_id=6459 tokens=27
+Skechers Vaporfoam Size 41,42,43 Price 4700 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * Vaporfoam	I-Product
+  * Size	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4700	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[51] ZemenExpress msg_id=8658 tokens=57
+Electric Hair Styling Hot Comb Fast Heating Ceramic press comb Smooths and softens all hair types Straightens unruly hair Auto shut-off for added safety Easy to use hair straightening comb ዋጋ፦ 1700 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+  * Electric	B-Product
+  * Hair	I-Product
+  * Styling	I-Product
+  * Hot	I-Product
+  * Comb	I-Product
+  * Fast	I-Product
+  * Heating	I-Product
+  * Ceramic	I-Product
+  * press	I-Product
+  * comb	I-Product
+  * Smooths	I-Product
+  * and	I-Product
+  * softens	I-Product
+  * all	I-Product
+  * hair	I-Product
+  * types	I-Product
+  * Straightens	I-Product
+  * unruly	I-Product
+  * hair	I-Product
+  * Auto	I-Product
+  * shut	I-Product
+  * -	I-Product
+  * off	I-Product
+  * for	I-Product
+  * added	I-Product
+  * safety	I-Product
+  * Easy	I-Product
+  * to	I-Product
+  * use	I-Product
+  * hair	I-Product
+  * straightening	I-Product
+  * comb	I-Product
+    ዋጋ፦	O
+  * 1700	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[52] ZemenExpress msg_id=8548 tokens=45
+.. sonic Electric Toothbrush rechargeable with 4 Soft Bristles Brush Heads waterproof suitable for male and female ideal for Gift ዋጋ፦ 1400 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * sonic	B-Product
+  * Electric	I-Product
+  * Toothbrush	I-Product
+  * rechargeable	I-Product
+    with	O
+    4	O
+    Soft	O
+    Bristles	O
+    Brush	O
+    Heads	O
+    waterproof	O
+    suitable	O
+    for	O
+    male	O
+    and	O
+    female	O
+    ideal	O
+    for	O
+    Gift	O
+    ዋጋ፦	O
+  * 1400	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[53] ZemenExpress msg_id=8500 tokens=43
+.. Magic Silicone Dish Washing Gloves High Quality ወፍራሙ ዕቃ ለማጠብ ቤት ለማፅዳት መኪና ለማጠብ ለተለያየ አገልግሎት የሚውል ዋጋ፦ 600ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Magic	B-Product
+  * Silicone	I-Product
+  * Dish	I-Product
+  * Washing	I-Product
+  * Gloves	I-Product
+  * High	I-Product
+  * Quality	I-Product
+  * ወፍራሙ	I-Product
+  * ዕቃ	I-Product
+  * ለማጠብ	I-Product
+  * ቤት	I-Product
+  * ለማፅዳት	I-Product
+  * መኪና	I-Product
+  * ለማጠብ	I-Product
+  * ለተለያየ	I-Product
+  * አገልግሎት	I-Product
+  * የሚውል	I-Product
+    ዋጋ፦	O
+  * 600	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[54] ZemenExpress msg_id=8632 tokens=31
+.. Silicone baby feeding set ጠረጴዛ ላይ የራሱ መለጠፊያ ያለው ዋጋ፦ 2500ብር አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Silicone	B-Product
+  * baby	I-Product
+  * feeding	I-Product
+  * set	I-Product
+  * ጠረጴዛ	I-Product
+    ላይ	O
+    የራሱ	O
+    መለጠፊያ	O
+    ያለው	O
+    ዋጋ፦	O
+  * 2500	B-PRICE
+  * ብር	I-PRICE
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[55] ZemenExpress msg_id=8629 tokens=40
+.. Manual Hand Press Fruit Juicer Safe Quick Super Easy to Clean and Effective Juicing ዋጋ፦ 1300 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Manual	B-Product
+  * Hand	I-Product
+  * Press	I-Product
+  * Fruit	I-Product
+  * Juicer	I-Product
+  * Safe	I-Product
+  * Quick	I-Product
+  * Super	I-Product
+  * Easy	I-Product
+  * to	I-Product
+  * Clean	I-Product
+  * and	I-Product
+  * Effective	I-Product
+  * Juicing	I-Product
+    ዋጋ፦	O
+  * 1300	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[56] ZemenExpress msg_id=8495 tokens=55
+.. portable electrical water dispenser ባለ 3 press ለማንኛውም ዓይነት የውሃ ጀሪካን የሚሆን ቱቦው 55cm የሚረዝም 1200mA ቻርጅ የመያዝ አቅም ያለው ባትሪ መጠጫ ብርጭቆ በራሱ ላይ ማስቀመጥ ይቻላል ዋጋ፦ 1600 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * portable	B-Product
+  * electrical	I-Product
+  * water	I-Product
+  * dispenser	I-Product
+  * ባለ	I-Product
+  * 3	I-Product
+  * press	I-Product
+  * ለማንኛውም	I-Product
+  * ዓይነት	I-Product
+  * የውሃ	I-Product
+  * ጀሪካን	I-Product
+  * የሚሆን	I-Product
+  * ቱቦው	I-Product
+  * 55	I-Product
+  * cm	I-Product
+  * የሚረዝም	I-Product
+  * 1200	I-Product
+  * mA	I-Product
+  * ቻርጅ	I-Product
+  * የመያዝ	I-Product
+  * አቅም	I-Product
+    ያለው	O
+    ባትሪ	O
+    መጠጫ	O
+    ብርጭቆ	O
+    በራሱ	O
+    ላይ	O
+    ማስቀመጥ	O
+    ይቻላል	O
+    ዋጋ፦	O
+  * 1600	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[57] ZemenExpress msg_id=8607 tokens=69
+.. 5 Layer moveable kitchen storage rack የአትክልትና የፍራፍሬ ማስቀመጫ 5 ደረጃ ያለዉ ሲሆን ለብቻ ወይም አንድ ላይ መከፈት የሚችል ዉስጥ ላስቀመጡት ነገር በቂ ንፋስ በመስጠት እንዳይበላሽ የሚያረግ በቀላሉ ከቦታ ቦታ መንቀሳቀስ የሚችል ከጠንካራ ና ከማይዝግ ብረት የተሰራ ከአትክልት ዉጭ ሌሎች ነገሮችን ለማስቀመጥ የሚሆን ዋጋ፦ 10,500 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * 5	B-Product
+  * Layer	I-Product
+  * moveable	I-Product
+  * kitchen	I-Product
+  * storage	I-Product
+  * rack	I-Product
+  * የአትክልትና	I-Product
+  * የፍራፍሬ	I-Product
+  * ማስቀመጫ	I-Product
+  * 5	I-Product
+  * ደረጃ	I-Product
+  * ያለዉ	I-Product
+  * ሲሆን	I-Product
+  * ለብቻ	I-Product
+    ወይም	O
+    አንድ	O
+    ላይ	O
+    መከፈት	O
+    የሚችል	O
+    ዉስጥ	O
+    ላስቀመጡት	O
+    ነገር	O
+    በቂ	O
+    ንፋስ	O
+    በመስጠት	O
+    እንዳይበላሽ	O
+    የሚያረግ	O
+    በቀላሉ	O
+    ከቦታ	O
+    ቦታ	O
+    መንቀሳቀስ	O
+    የሚችል	O
+    ከጠንካራ	O
+    ና	O
+    ከማይዝግ	O
+    ብረት	O
+    የተሰራ	O
+    ከአትክልት	O
+    ዉጭ	O
+    ሌሎች	O
+    ነገሮችን	O
+    ለማስቀመጥ	O
+    የሚሆን	O
+    ዋጋ፦	O
+  * 10,500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[58] ZemenExpress msg_id=8516 tokens=30
+.. Love egg baking pan ዋጋ፦ 1700 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Love	B-Product
+  * egg	I-Product
+  * baking	I-Product
+  * pan	I-Product
+    ዋጋ፦	O
+  * 1700	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[59] ZemenExpress msg_id=8568 tokens=60
+.. Kitchen Sticker ለኪችንዎ ውበት እጅግ ተመራጭ ውሀ የማያስገባ ቅባት ዘይት ነገሮች እሳት እና ተቀጣጣይ ነገሮችን የሚቋቋም ለኪችን ካቢኔት ለካቢኔት መሳቢያወች ለኪችንዎ ግርግዳ ኪችንዎትን ውብ እና ፅዱ ለማድረግ ተመራጭ ዋጋ፦5m 60cm 1450 ብር Available Colour Gold Silver ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Kitchen	B-Product
+  * Sticker	I-Product
+  * ለኪችንዎ	I-Product
+  * ውበት	I-Product
+  * እጅግ	I-Product
+  * ተመራጭ	I-Product
+  * ውሀ	I-Product
+  * የማያስገባ	I-Product
+  * ቅባት	I-Product
+  * ዘይት	I-Product
+  * ነገሮች	I-Product
+  * እሳት	I-Product
+    እና	O
+    ተቀጣጣይ	O
+    ነገሮችን	O
+    የሚቋቋም	O
+    ለኪችን	O
+    ካቢኔት	O
+    ለካቢኔት	O
+    መሳቢያወች	O
+    ለኪችንዎ	O
+    ግርግዳ	O
+    ኪችንዎትን	O
+    ውብ	O
+    እና	O
+    ፅዱ	O
+    ለማድረግ	O
+    ተመራጭ	O
+    ዋጋ፦5m	O
+    60	O
+    cm	O
+  * 1450	B-PRICE
+  * ብር	I-PRICE
+    Available	O
+    Colour	O
+    Gold	O
+    Silver	O
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[60] ZemenExpress msg_id=8672 tokens=32
+.. Sokany 7 in1 Sandwich Maker set ዋጋ፦ 8800 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Sokany	B-Product
+  * 7	I-Product
+  * in1	I-Product
+  * Sandwich	I-Product
+  * Maker	I-Product
+  * set	I-Product
+    ዋጋ፦	O
+  * 8800	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[61] ethio_brand_collection msg_id=6376 tokens=29
+Skechers Quantum flex size 40,41,42,43 Price 4200 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * Quantum	I-Product
+  * flex	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4200	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[62] ethio_brand_collection msg_id=6341 tokens=31
+Jordan 1 low Travis Scott size 40,41,42,43 Price 4000 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Jordan	B-Product
+  * 1	I-Product
+  * low	I-Product
+  * Travis	I-Product
+  * Scott	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4000	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[63] ethio_brand_collection msg_id=6264 tokens=29
+Skechers Light Performance Size 40,41,42,43 Price 3800 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * Light	I-Product
+  * Performance	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 3800	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[64] ethio_brand_collection msg_id=6554 tokens=26
+Air Jordan 5 Size 44 Price 5500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Air	B-Product
+  * Jordan	I-Product
+  * 5	I-Product
+  * Size	I-Product
+  * 44	I-Product
+    Price	O
+  * 5500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[65] ethio_brand_collection msg_id=6391 tokens=32
+Dc crock leather boots Size 39,40,41,42,43,44 Price 5300 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Dc	B-Product
+  * crock	I-Product
+  * leather	I-Product
+  * boots	I-Product
+  * Size	I-Product
+  * 39	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 5300	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[66] ethio_brand_collection msg_id=6411 tokens=31
+Elegantes slip on Oxford Size 39,41,42,43,44 Price 5500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Elegantes	B-Product
+  * slip	I-Product
+  * on	I-Product
+  * Oxford	I-Product
+  * Size	I-Product
+  * 39	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 5500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[67] ethio_brand_collection msg_id=6308 tokens=31
+Kavalee Chelsea comfy boot size 40,41,42,43,44 Price 5500 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Kavalee	B-Product
+  * Chelsea	I-Product
+  * comfy	I-Product
+  * boot	I-Product
+  * size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+    Price	O
+  * 5500	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[68] ethio_brand_collection msg_id=6398 tokens=28
+Skechers Vaporfoam Size 40,41,42,43 Price 4700 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Skechers	B-Product
+  * Vaporfoam	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4700	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[69] ethio_brand_collection msg_id=6527 tokens=29
+Kavalee light leather Size 40,41,42,43 Price 4800 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Kavalee	B-Product
+  * light	I-Product
+  * leather	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+  * 42	I-Product
+  * 43	I-Product
+    Price	O
+  * 4800	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[70] ethio_brand_collection msg_id=6493 tokens=28
+Adidas Campus Size 42,43,44,45 Price 3700 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * Adidas	B-Product
+  * Campus	I-Product
+  * Size	I-Product
+  * 42	I-Product
+  * 43	I-Product
+  * 44	I-Product
+  * 45	I-Product
+    Price	O
+  * 3700	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
+
+[71] Leyueqa msg_id=9987 tokens=70
+..Portable Electronic Scale ዘመናዊ በኤሌክትሮኒክስ የሚሰራ ሚዛን እስከ 50 ኪሎ ይመዝናል በባትሪ ድንጋይ የሚሰራ በቀላሉ በኪስ የሚያዝ ትክክለኛ ልኬት Specification: Material: ABS, stainless steel Capacity : 50kg /110lb Accuracy: 10g / 0.2lb Units: kg / lb / oz / g Auto power-off: 30 seconds Power supply: 2 AAA Battery ዋጋ፦ 950 ብር ውስን ፍሬ ነው ያለው
+----------------------------------------
+    ..	O
+  * Portable	B-Product
+  * Electronic	I-Product
+  * Scale	I-Product
+  * ዘመናዊ	I-Product
+  * በኤሌክትሮኒክስ	I-Product
+  * የሚሰራ	I-Product
+  * ሚዛን	I-Product
+  * እስከ	I-Product
+  * 50	I-Product
+  * ኪሎ	I-Product
+  * ይመዝናል	I-Product
+  * በባትሪ	I-Product
+  * ድንጋይ	I-Product
+  * የሚሰራ	I-Product
+  * በቀላሉ	I-Product
+  * በኪስ	I-Product
+  * የሚያዝ	I-Product
+  * ትክክለኛ	I-Product
+  * ልኬት	I-Product
+  * Specification	I-Product
+    :	O
+    Material	O
+    :	O
+    ABS	O
+    stainless	O
+    steel	O
+    Capacity	O
+    :	O
+    50	O
+    kg	O
+    /	O
+    110	O
+    lb	O
+    Accuracy	O
+    :	O
+    10	O
+    g	O
+    /	O
+    0.2	O
+    lb	O
+    Units	O
+    :	O
+    kg	O
+    /	O
+    lb	O
+    /	O
+    oz	O
+    /	O
+    g	O
+    Auto	O
+    power	O
+    -	O
+    off	O
+    :	O
+    30	O
+    seconds	O
+    Power	O
+    supply	O
+    :	O
+    2	O
+    AAA	O
+    Battery	O
+    ዋጋ፦	O
+  * 950	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+
+[72] Leyueqa msg_id=9898 tokens=54
+የጃር ማስቀመጪያ Foldable Water Bottle Stand and Dispenser ጠንካራና እና ተጣጣፊ የሆነ የራሱ የውሀ መቅጃ ያለው Price : 1750 ብር ከነፃ ዲሊቨሪ ጋር አድራሻ ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ ደረጃውን እንደወጡ ወደ ግራ ታጥፈው ጫፍ ላይ 114B 093344 0933811 0944109295
+----------------------------------------
+  * የጃር	B-Product
+  * ማስቀመጪያ	I-Product
+  * Foldable	I-Product
+  * Water	I-Product
+  * Bottle	I-Product
+  * Stand	I-Product
+  * and	I-Product
+  * Dispenser	I-Product
+  * ጠንካራና	I-Product
+    እና	O
+    ተጣጣፊ	O
+    የሆነ	O
+    የራሱ	O
+    የውሀ	O
+    መቅጃ	O
+    ያለው	O
+    Price	O
+    :	O
+  * 1750	B-PRICE
+  * ብር	I-PRICE
+    ከነፃ	O
+    ዲሊቨሪ	O
+    ጋር	O
+    አድራሻ	O
+  * ባሉበት	B-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * ደረጃውን	I-LOC
+  * እንደወጡ	I-LOC
+  * ወደ	I-LOC
+  * ግራ	I-LOC
+  * ታጥፈው	I-LOC
+  * ጫፍ	I-LOC
+  * ላይ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * 093344	I-LOC
+  * 0933811	I-LOC
+    0944109295	O
+
+[73] Leyueqa msg_id=10055 tokens=68
+Saachi Juicer 100% original Saachi የጁስ መፍጪያ 550 ዋት ስለሆነ ከፍተኛ ጉልበት አለው አንድ ከወፍራም ብርጭቆ የተሰራ ጆግ። በረዶና ሱፍ ለመፍጨት ተመራጭ አንድ ከማይካ የተሰራ ጆግና አንድ የቡናና የቅመማ ቅመም መፍጪያ 6700 ብር ከነፃ ዲሊቨሪ ጋር አድራሻ ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ ደረጃውን እንደወጡ ወደ ግራ ታጥፈው ጫፍ ላይ 114B 093344 0933811 0944109295
+----------------------------------------
+    Saachi	O
+    Juicer	O
+    100	O
+    %	O
+    original	O
+    Saachi	O
+    የጁስ	O
+    መፍጪያ	O
+    550	O
+    ዋት	O
+    ስለሆነ	O
+    ከፍተኛ	O
+    ጉልበት	O
+    አለው	O
+    አንድ	O
+    ከወፍራም	O
+    ብርጭቆ	O
+    የተሰራ	O
+    ጆግ።	O
+    በረዶና	O
+    ሱፍ	O
+    ለመፍጨት	O
+    ተመራጭ	O
+    አንድ	O
+    ከማይካ	O
+    የተሰራ	O
+    ጆግና	O
+    አንድ	O
+    የቡናና	O
+    የቅመማ	O
+    ቅመም	O
+    መፍጪያ	O
+  * 6700	B-PRICE
+  * ብር	I-PRICE
+    ከነፃ	O
+    ዲሊቨሪ	O
+    ጋር	O
+    አድራሻ	O
+  * ባሉበት	B-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * ደረጃውን	I-LOC
+  * እንደወጡ	I-LOC
+  * ወደ	I-LOC
+  * ግራ	I-LOC
+  * ታጥፈው	I-LOC
+  * ጫፍ	I-LOC
+  * ላይ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * 093344	I-LOC
+  * 0933811	I-LOC
+    0944109295	O
+
+[74] Leyueqa msg_id=9751 tokens=48
+No Door Bottom Seal Strip Stopper Keep Hot and Cold Air isolated Reduce The Noise Outside and Door slamming 750 Bir 3pc free delivery ቅናሽ_በሆኑ_ዕቃዎች_እንዳይታለሉ_አጣርተው_ይግዙ ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ በተጨማሪ ከ_1100_ብር በላይ የሆኑ ሁለት_ዕቃዎች ሲገዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ 093344 0946242424 0944109295
+----------------------------------------
+  * No	B-Product
+  * Door	I-Product
+  * Bottom	I-Product
+  * Seal	I-Product
+  * Strip	I-Product
+  * Stopper	I-Product
+  * Keep	I-Product
+  * Hot	I-Product
+  * and	I-Product
+  * Cold	I-Product
+  * Air	I-Product
+  * isolated	I-Product
+  * Reduce	I-Product
+  * The	I-Product
+  * Noise	I-Product
+  * Outside	I-Product
+  * and	I-Product
+  * Door	I-Product
+  * slamming	I-Product
+  * 750	I-Product
+  * Bir	I-Product
+  * 3	I-Product
+  * pc	I-Product
+  * free	I-Product
+  * delivery	I-Product
+  * ቅናሽ_በሆኑ_ዕቃዎች_እንዳይታለሉ_አጣርተው_ይግዙ	I-Product
+  * ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ	I-Product
+  * በተጨማሪ	I-Product
+  * ከ_1100_ብር	I-Product
+  * በላይ	I-Product
+  * የሆኑ	I-Product
+  * ሁለት_ዕቃዎች	I-Product
+  * ሲገዙ	I-Product
+  * ስጦታ	I-Product
+  * እንልክለዎታለን	I-Product
+  * T	I-Product
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    093344	O
+    0946242424	O
+    0944109295	O
+
+[75] Leyueqa msg_id=9756 tokens=50
+ቢላ እና መከትከቻ ከጠንካራ ብረት የተሰሩ። ጥንካሬ: በቀላሉ የማይሰበሩ እና የማይደክሙ። ለኩሽናዎ ልዩ ገጽታ የሚሰጡ። ዋጋ 1450 ብር ከነፃ ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ ደረጃውን እንደወጡ ወደ ግራ ታጥፈው ጫፍ ላይ 114B 093344 0933811 0944109295
+----------------------------------------
+    ቢላ	O
+    እና	O
+    መከትከቻ	O
+    ከጠንካራ	O
+    ብረት	O
+    የተሰሩ።	O
+    ጥንካሬ	O
+    :	O
+    በቀላሉ	O
+    የማይሰበሩ	O
+    እና	O
+    የማይደክሙ።	O
+    ለኩሽናዎ	O
+    ልዩ	O
+    ገጽታ	O
+    የሚሰጡ።	O
+    ዋጋ	O
+  * 1450	B-PRICE
+  * ብር	I-PRICE
+    ከነፃ	O
+    ያለተጨማሪ	O
+    ክፍያ	O
+    ማዘዝ	O
+    ይችላሉ	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * ደረጃውን	I-LOC
+  * እንደወጡ	I-LOC
+  * ወደ	I-LOC
+  * ግራ	I-LOC
+  * ታጥፈው	I-LOC
+  * ጫፍ	I-LOC
+  * ላይ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * 093344	I-LOC
+  * 0933811	I-LOC
+    0944109295	O
+
+[76] Leyueqa msg_id=9763 tokens=57
+ውሃ የማያስገባ Waterproof : ዝናብ ወይም ጭቃ ባለበት ቦታ በልበ ሙሉነት ይራመዱ። የማይሸራተት Anti-slip : የታችኛው ክፍል ልዩ ዲዛይን ስላለው፣ እርጥብ ቦታዎች ላይ ከመሸራተት ይጠብቅዎታል። ለማጽዳት ቀላል: ጭቃ ሲበዛበት በቀላሉ አጥበው እንደገና መጠቀም ይችላሉ። ለማንኛውም ጫማ የሚሆን: ተለዋዋጭ Elastic ስለሆነ በማንኛውም የጫማ አይነት ላይ በቀላሉ ይደረጋል። ዋጋ 450 ዌብሳይታችንን ይጎብኙ Liyueka.com
+----------------------------------------
+  * ውሃ	B-Product
+  * የማያስገባ	I-Product
+  * Waterproof	I-Product
+    :	O
+    ዝናብ	O
+    ወይም	O
+    ጭቃ	O
+    ባለበት	O
+    ቦታ	O
+    በልበ	O
+    ሙሉነት	O
+    ይራመዱ።	O
+    የማይሸራተት	O
+    Anti	O
+    -	O
+    slip	O
+    :	O
+    የታችኛው	O
+    ክፍል	O
+    ልዩ	O
+    ዲዛይን	O
+    ስላለው፣	O
+    እርጥብ	O
+    ቦታዎች	O
+    ላይ	O
+    ከመሸራተት	O
+    ይጠብቅዎታል።	O
+    ለማጽዳት	O
+    ቀላል	O
+    :	O
+    ጭቃ	O
+    ሲበዛበት	O
+    በቀላሉ	O
+    አጥበው	O
+    እንደገና	O
+    መጠቀም	O
+    ይችላሉ።	O
+    ለማንኛውም	O
+    ጫማ	O
+    የሚሆን	O
+    :	O
+    ተለዋዋጭ	O
+    Elastic	O
+    ስለሆነ	O
+    በማንኛውም	O
+    የጫማ	O
+    አይነት	O
+    ላይ	O
+    በቀላሉ	O
+    ይደረጋል።	O
+    ዋጋ	O
+  * 450	B-PRICE
+    ዌብሳይታችንን	O
+    ይጎብኙ	O
+    Liyueka	O
+    .	O
+    com	O
+
+[77] Leyueqa msg_id=10022 tokens=62
+ቀላል እና ጠንካራ የሆነውን ባለ 3 እግር ወንበር እና ምርኩዝ መራመጃ ይዘዙ። ሁልጊዜም መቀመጫዎ ከእርስዎ ጋር አለ። መጓዝ ወይም መቆም በሚያስፈልግበት በማንኛውም ቦታ ላይ የሚጠቀሙበት፣ እረፍትዎን የሚያስተግስ አሪፍ መላ። ዋጋ 2100 ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ ነፃ ዲሊቨሪ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ 093344 0944109295 0933811
+----------------------------------------
+  * ቀላል	B-Product
+    እና	O
+    ጠንካራ	O
+    የሆነውን	O
+    ባለ	O
+    3	O
+    እግር	O
+    ወንበር	O
+    እና	O
+    ምርኩዝ	O
+    መራመጃ	O
+    ይዘዙ።	O
+    ሁልጊዜም	O
+    መቀመጫዎ	O
+    ከእርስዎ	O
+    ጋር	O
+    አለ።	O
+    መጓዝ	O
+    ወይም	O
+    መቆም	O
+    በሚያስፈልግበት	O
+    በማንኛውም	O
+    ቦታ	O
+    ላይ	O
+    የሚጠቀሙበት፣	O
+    እረፍትዎን	O
+    የሚያስተግስ	O
+    አሪፍ	O
+    መላ።	O
+    ዋጋ	O
+  * 2100	B-PRICE
+    ባሉበት	O
+    ያለተጨማሪ	O
+    ክፍያ	O
+    ማዘዝ	O
+    ይችላሉ	O
+    ነፃ	O
+    ዲሊቨሪ	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * ባሉበት	I-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * 093344	I-LOC
+    0944109295	O
+    0933811	O
+
+[78] Leyueqa msg_id=10050 tokens=68
+የቢምቢ ማጥፊያ በ 750 ብቻ ሰላማዊ እንቅልፍ ለተጠቃሚዎች በትንኞች ሳይረበሹ በሰላም እንዲተኙ ይረዳቸዋል። ለቤት ውስጥ ደህንነቱ የተጠበቀ፦ ምርቱ በቤት ውስጥ እና በቤተሰብ አባላት አጠገብ ለመጠቀም ደህንነቱ የተጠበቀ እንደሆነ ተገልጿል። መጥፎ ጠረን የለውም፦ መሳሪያው ምንም አይነት መጥፎ ሽታ ወይም ጎጂ ጭስ አያወጣም። ዋጋ ዌብሳይታችንን ይጎብኙ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ 093344 0946242424 0944109295
+----------------------------------------
+  * የቢምቢ	B-Product
+  * ማጥፊያ	I-Product
+    በ	O
+    750	O
+    ብቻ	O
+    ሰላማዊ	O
+    እንቅልፍ	O
+    ለተጠቃሚዎች	O
+    በትንኞች	O
+    ሳይረበሹ	O
+    በሰላም	O
+    እንዲተኙ	O
+    ይረዳቸዋል።	O
+    ለቤት	O
+    ውስጥ	O
+    ደህንነቱ	O
+    የተጠበቀ፦	O
+    ምርቱ	O
+    በቤት	O
+    ውስጥ	O
+    እና	O
+    በቤተሰብ	O
+    አባላት	O
+    አጠገብ	O
+    ለመጠቀም	O
+    ደህንነቱ	O
+    የተጠበቀ	O
+    እንደሆነ	O
+    ተገልጿል።	O
+    መጥፎ	O
+    ጠረን	O
+    የለውም፦	O
+    መሳሪያው	O
+    ምንም	O
+    አይነት	O
+    መጥፎ	O
+    ሽታ	O
+    ወይም	O
+    ጎጂ	O
+    ጭስ	O
+    አያወጣም።	O
+    ዋጋ	O
+    ዌብሳይታችንን	O
+    ይጎብኙ	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * ባሉበት	I-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * 093344	I-LOC
+    0946242424	O
+    0944109295	O
+
+[79] Leyueqa msg_id=9761 tokens=58
+Baby portable detachable feeding pillows ዋጋ፦ 850 ብር ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ በተጨማሪ ከ_1000_ብር በላይ የሆኑ ከ1000 ብር በላይ የሚተመኑ ሁለት ዕቃዎችን አንድላይ ሲገዙ ስጦታ እንልክለዎታለን T.me/Leyueqa ቻናላችንን ለጓደኛዎ ሸር ማድረግዎን አይርሱ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B ይደዉሉልን ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ 093344 0946242424 0944109295
+----------------------------------------
+  * Baby	B-Product
+  * portable	I-Product
+  * detachable	I-Product
+  * feeding	I-Product
+  * pillows	I-Product
+    ዋጋ፦	O
+  * 850	B-PRICE
+  * ብር	I-PRICE
+    ክፍያዎን_በሞባይል_ባንኪንግ_መፈፀምም_ይችላሉ	O
+    በተጨማሪ	O
+    ከ_1000_ብር	O
+    በላይ	O
+    የሆኑ	O
+    ከ1000	O
+    ብር	O
+    በላይ	O
+    የሚተመኑ	O
+    ሁለት	O
+    ዕቃዎችን	O
+    አንድላይ	O
+    ሲገዙ	O
+    ስጦታ	O
+    እንልክለዎታለን	O
+    T	O
+    .	O
+    me	O
+    /	O
+    Leyueqa	O
+    ቻናላችንን	O
+    ለጓደኛዎ	O
+    ሸር	O
+    ማድረግዎን	O
+    አይርሱ	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * ይደዉሉልን	I-LOC
+  * ባሉበት	I-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * 093344	I-LOC
+    0946242424	O
+    0944109295	O
+
+[80] Leyueqa msg_id=9775 tokens=52
+መጥረጊያዎች፣ የቤት ማጽጃዎች እና ሌሎች እቃዎች ቦታ አጥተው ተቸግረዋል ይህን ቀላል እና ዘመናዊ የመጥረጊያ መያዣ Mop Holder ይጠቀሙ ግድግዳ ላይ በቀላሉ የሚለጠፍ። እቃዎችዎን በጥብቅ ይዞ የሚይዝ፣ በውሃ የማይበላሽ። ቦታ ቆጣቢ፦ ቤትን ሥርዓታማና ንጹህ ያደርጋል። ለመጥረጊያ ብቻ ሳይሆን ለተለያዩ እቃዎችም የሚጠቅም አሁኑኑ ይዘዙና ቤትዎን በዘዴ ያደራጁ ዋጋ 550 ዌብሳይታችንን ይጎብኙ Liyueka.com
+----------------------------------------
+  * መጥረጊያዎች፣	B-Product
+  * የቤት	I-Product
+  * ማጽጃዎች	I-Product
+    እና	O
+    ሌሎች	O
+    እቃዎች	O
+    ቦታ	O
+    አጥተው	O
+    ተቸግረዋል	O
+    ይህን	O
+    ቀላል	O
+    እና	O
+    ዘመናዊ	O
+    የመጥረጊያ	O
+    መያዣ	O
+    Mop	O
+    Holder	O
+    ይጠቀሙ	O
+    ግድግዳ	O
+    ላይ	O
+    በቀላሉ	O
+    የሚለጠፍ።	O
+    እቃዎችዎን	O
+    በጥብቅ	O
+    ይዞ	O
+    የሚይዝ፣	O
+    በውሃ	O
+    የማይበላሽ።	O
+    ቦታ	O
+    ቆጣቢ፦	O
+    ቤትን	O
+    ሥርዓታማና	O
+    ንጹህ	O
+    ያደርጋል።	O
+    ለመጥረጊያ	O
+    ብቻ	O
+    ሳይሆን	O
+    ለተለያዩ	O
+    እቃዎችም	O
+    የሚጠቅም	O
+    አሁኑኑ	O
+    ይዘዙና	O
+    ቤትዎን	O
+    በዘዴ	O
+    ያደራጁ	O
+    ዋጋ	O
+  * 550	B-PRICE
+    ዌብሳይታችንን	O
+    ይጎብኙ	O
+    Liyueka	O
+    .	O
+    com	O
+
+[81] AwasMart msg_id=17338 tokens=34
+Smiley Lunch Box Bag ዋጋ፦ 1,000 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Smiley	B-Product
+  * Lunch	I-Product
+  * Box	I-Product
+  * Bag	I-Product
+    ዋጋ፦	O
+  * 1,000	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[82] AwasMart msg_id=17131 tokens=35
+Folding high capacity travel bags ዋጋ፦ 1,600 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Folding	B-Product
+  * high	I-Product
+  * capacity	I-Product
+  * travel	I-Product
+  * bags	I-Product
+    ዋጋ፦	O
+  * 1,600	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[83] AwasMart msg_id=17303 tokens=34
+3 Layer Fruit Basket ዋጋ፦ 2,500 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * 3	B-Product
+  * Layer	I-Product
+  * Fruit	I-Product
+  * Basket	I-Product
+    ዋጋ፦	O
+  * 2,500	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[84] AwasMart msg_id=17327 tokens=35
+Electric Coffee Maker 300ml ዋጋ፦ 4,100 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Electric	B-Product
+  * Coffee	I-Product
+  * Maker	I-Product
+  * 300	I-Product
+  * ml	I-Product
+    ዋጋ፦	O
+  * 4,100	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[85] AwasMart msg_id=17242 tokens=36
+3 Pieces Silicone Baby Bottle Brush ዋጋ፦ 800 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * 3	B-Product
+  * Pieces	I-Product
+  * Silicone	I-Product
+  * Baby	I-Product
+  * Bottle	I-Product
+  * Brush	I-Product
+    ዋጋ፦	O
+  * 800	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[86] AwasMart msg_id=17305 tokens=34
+Magic Cane Walking Stick ዋጋ፦ 1 800 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Magic	B-Product
+  * Cane	I-Product
+  * Walking	I-Product
+  * Stick	I-Product
+    ዋጋ፦	O
+  * 1	B-PRICE
+  * 800	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[87] AwasMart msg_id=17296 tokens=60
+Soap Pump Dispenser with Sponge Dispense the perfect amount of dish soap, Every time Tank Capacity: 385ml Good material Proper design Easy to use Save time Wide occasion ዋጋ፦ 600 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Soap	B-Product
+  * Pump	I-Product
+  * Dispenser	I-Product
+  * with	I-Product
+  * Sponge	I-Product
+  * Dispense	I-Product
+  * the	I-Product
+  * perfect	I-Product
+  * amount	I-Product
+  * of	I-Product
+  * dish	I-Product
+  * soap	I-Product
+  * Every	I-Product
+  * time	I-Product
+  * Tank	I-Product
+  * Capacity	I-Product
+    :	O
+    385	O
+    ml	O
+    Good	O
+    material	O
+    Proper	O
+    design	O
+    Easy	O
+    to	O
+    use	O
+    Save	O
+    time	O
+    Wide	O
+    occasion	O
+    ዋጋ፦	O
+  * 600	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[88] AwasMart msg_id=17126 tokens=64
+Baby suction bowl ባለ ሁለት ክፍል የልጆች መመገቢያ ሳህን እድሜያቸው ከ6ወር ጀምር ላሉ ህፃናት የሚመከር የራሱ ማንኪያ እና ሹካ ያለው በአንድ ግዜ 4 አይነት ምግብ ለመመገብ ያስችላል ከጠረንጴዛ ተንሸራቶ እንዳይወድቅ ማጣበቂያ ያለው BPA free ዋጋ፦ 700 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Baby	B-Product
+  * suction	I-Product
+  * bowl	I-Product
+  * ባለ	I-Product
+  * ሁለት	I-Product
+  * ክፍል	I-Product
+  * የልጆች	I-Product
+  * መመገቢያ	I-Product
+  * ሳህን	I-Product
+  * እድሜያቸው	I-Product
+  * ከ6ወር	I-Product
+  * ጀምር	I-Product
+  * ላሉ	I-Product
+  * ህፃናት	I-Product
+  * የሚመከር	I-Product
+  * የራሱ	I-Product
+  * ማንኪያ	I-Product
+    እና	O
+    ሹካ	O
+    ያለው	O
+    በአንድ	O
+    ግዜ	O
+    4	O
+    አይነት	O
+    ምግብ	O
+    ለመመገብ	O
+    ያስችላል	O
+    ከጠረንጴዛ	O
+    ተንሸራቶ	O
+    እንዳይወድቅ	O
+    ማጣበቂያ	O
+    ያለው	O
+    BPA	O
+    free	O
+    ዋጋ፦	O
+  * 700	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[89] AwasMart msg_id=17155 tokens=36
+Double Electric Breast Pump BPA free ዋጋ፦ 3,500 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Double	B-Product
+  * Electric	I-Product
+  * Breast	I-Product
+  * Pump	I-Product
+  * BPA	I-Product
+  * free	I-Product
+    ዋጋ፦	O
+  * 3,500	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[90] AwasMart msg_id=17325 tokens=34
+Boma Deep Fryer 2.5L ዋጋ፦ 5,000 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Boma	B-Product
+  * Deep	I-Product
+  * Fryer	I-Product
+  * 2.5	I-Product
+  * L	I-Product
+    ዋጋ፦	O
+  * 5,000	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[91] qnashcom msg_id=5562 tokens=65
+Spa Gel Socks ለእግር ልስላሴ ለሚሰነጣጠቅ እግር ድርቀትን የሚያለሰልስ የሚታጠብ ዋጋ፦ 550 ብር ውስን ፍሬ ነው የቀረው Limited Stock Telegram - t.me/qnashcom Website - ጥራት ዋስትና ቅናሽ አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ ስልክ: ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * Spa	B-Product
+  * Gel	I-Product
+  * Socks	I-Product
+  * ለእግር	I-Product
+  * ልስላሴ	I-Product
+  * ለሚሰነጣጠቅ	I-Product
+  * እግር	I-Product
+  * ድርቀትን	I-Product
+  * የሚያለሰልስ	I-Product
+  * የሚታጠብ	I-Product
+    ዋጋ፦	O
+  * 550	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Limited	O
+    Stock	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    Website	O
+    -	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[92] qnashcom msg_id=5569 tokens=60
+Galatin Cake Molds የተቆራጭ ኬክ/ዳቦ ፓትራ የማይዝ፣ቶሎ የማያሳርር እና ወፍራም ፓትራ ባለ 35cm ርዝመት ዋጋ:- 1500 ብር ውስን ፍሬ ነው የቀረው ጥራት ዋስትና ቅናሽ ስልክ: 0946966440 0992606060 0905464599 አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ
+----------------------------------------
+  * Galatin	B-Product
+  * Cake	I-Product
+  * Molds	I-Product
+  * የተቆራጭ	I-Product
+  * ኬክ	I-Product
+    /	O
+    ዳቦ	O
+    ፓትራ	O
+    የማይዝ፣ቶሎ	O
+    የማያሳርር	O
+    እና	O
+    ወፍራም	O
+    ፓትራ	O
+    ባለ	O
+    35	O
+    cm	O
+    ርዝመት	O
+    ዋጋ	O
+    :-	O
+  * 1500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    ስልክ	O
+    :	O
+    0946966440	O
+    0992606060	O
+    0905464599	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+
+[93] qnashcom msg_id=5610 tokens=59
+IINIMA Coffee Grinder Stainless Steel Bowl to mill coffee cardamom nut Spices 150W 2000 ብር Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ ቁጥር 1 :- መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+    IINIMA	O
+    Coffee	O
+    Grinder	O
+    Stainless	O
+    Steel	O
+    Bowl	O
+    to	O
+    mill	O
+    coffee	O
+    cardamom	O
+    nut	O
+    Spices	O
+    150	O
+    W	O
+  * 2000	B-PRICE
+  * ብር	I-PRICE
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * ቁጥር	I-LOC
+  * 1	I-LOC
+  * :-	I-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[94] qnashcom msg_id=5614 tokens=63
+Adjustable Holder of Pot stainless steel easy to use and clean durable a quality ዋጋ፦ 1400 ብር ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329 መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+  * Adjustable	B-Product
+  * Holder	I-Product
+  * of	I-Product
+  * Pot	I-Product
+  * stainless	I-Product
+  * steel	I-Product
+  * easy	I-Product
+  * to	I-Product
+  * use	I-Product
+  * and	I-Product
+  * clean	I-Product
+  * durable	I-Product
+  * a	I-Product
+  * quality	I-Product
+    ዋጋ፦	O
+  * 1400	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[95] qnashcom msg_id=5469 tokens=53
+SOKANY Hand Mixer 2200 ብር ለማዘዝ ውስን ፍሬ ነው የቀረው Telegram - t.me/qnashcom ጥራት ዋስትና ቅናሽ አድራሻ ፦ :- መገናኛ ዘፍመሽ ግራንድ ሞል 3 ተኛ ፎቅ ቁጥር 329 ማሳሰብያ: ሱቃችን ሲመጡ ትክክለኛ የኛ ሱቅ መሆኑ ያረጋግጡ የራሳችን ሎጎ መኖሩን እና 329መሆኑ ያረጋግጡ ስልክ: 0946966440 0992606060 0905464599
+----------------------------------------
+    SOKANY	O
+    Hand	O
+    Mixer	O
+  * 2200	B-PRICE
+  * ብር	I-PRICE
+    ለማዘዝ	O
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    የቀረው	O
+    Telegram	O
+    -	O
+    t	O
+    .	O
+    me	O
+    /	O
+    qnashcom	O
+    ጥራት	O
+    ዋስትና	O
+    ቅናሽ	O
+    አድራሻ	O
+  * ፦	B-LOC
+  * :-	I-LOC
+  * መገናኛ	I-LOC
+  * ዘፍመሽ	I-LOC
+  * ግራንድ	I-LOC
+  * ሞል	I-LOC
+  * 3	I-LOC
+  * ተኛ	I-LOC
+  * ፎቅ	I-LOC
+  * ቁጥር	I-LOC
+  * 329	I-LOC
+  * ማሳሰብያ	I-LOC
+  * :	I-LOC
+  * ሱቃችን	I-LOC
+  * ሲመጡ	I-LOC
+  * ትክክለኛ	I-LOC
+  * የኛ	I-LOC
+  * ሱቅ	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * የራሳችን	I-LOC
+  * ሎጎ	I-LOC
+  * መኖሩን	I-LOC
+  * እና	I-LOC
+  * 329	I-LOC
+  * መሆኑ	I-LOC
+  * ያረጋግጡ	I-LOC
+  * ስልክ	I-LOC
+  * :	I-LOC
+    0946966440	O
+    0992606060	O
+    0905464599	O
+
+[96] ZemenExpress msg_id=8421 tokens=51
+.. Car Incense Burner የመኪና ውስጥ ዕጣን ማጨሻ በመኪናው ሲጋራ መለኮሻ ላይ የሚሰካ ፈጣን ቶሎ የሚግል መልካም መዓዛ ያለቸውን የቡኹር ዕጣኖች ተጠቅመው መኪናዎን በመልካም ማዕዛ ያጥኑ ዋጋ፦ 1250 ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * Car	B-Product
+  * Incense	I-Product
+  * Burner	I-Product
+  * የመኪና	I-Product
+    ውስጥ	O
+    ዕጣን	O
+    ማጨሻ	O
+    በመኪናው	O
+    ሲጋራ	O
+    መለኮሻ	O
+    ላይ	O
+    የሚሰካ	O
+    ፈጣን	O
+    ቶሎ	O
+    የሚግል	O
+    መልካም	O
+    መዓዛ	O
+    ያለቸውን	O
+    የቡኹር	O
+    ዕጣኖች	O
+    ተጠቅመው	O
+    መኪናዎን	O
+    በመልካም	O
+    ማዕዛ	O
+    ያጥኑ	O
+    ዋጋ፦	O
+  * 1250	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[97] ZemenExpress msg_id=8557 tokens=44
+.. One Fire Table Lamp በተች የሚሰራ ቻርጅ የሚደረግ ለመኝታ ቤት ፣ ለሳሎን ፣ ለ ሆቴሎች እንዲሁም ለባዝ ሩም ዋጋ፦ 2500ብር ውስን ፍሬ ነው ያለው አድራሻ መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ ቢሮ ቁ. S05/S06 0902660722 0928460606 በTelegram ለማዘዝ ይጠቀሙ ለተጨማሪ ማብራሪያ የቴሌግራም ገፃችን ..
+----------------------------------------
+    ..	O
+  * One	B-Product
+  * Fire	I-Product
+  * Table	I-Product
+  * Lamp	I-Product
+  * በተች	I-Product
+  * የሚሰራ	I-Product
+  * ቻርጅ	I-Product
+  * የሚደረግ	I-Product
+  * ለመኝታ	I-Product
+  * ቤት	I-Product
+  * ፣	I-Product
+  * ለሳሎን	I-Product
+  * ፣	I-Product
+    ለ	O
+    ሆቴሎች	O
+    እንዲሁም	O
+    ለባዝ	O
+    ሩም	O
+    ዋጋ፦	O
+  * 2500	B-PRICE
+  * ብር	I-PRICE
+    ውስን	O
+    ፍሬ	O
+    ነው	O
+    ያለው	O
+    አድራሻ	O
+  * መገናኛ_መሰረት_ደፋር_ሞል_ሁለተኛ_ፎቅ	B-LOC
+  * ቢሮ	I-LOC
+  * ቁ	I-LOC
+  * .	I-LOC
+  * S05	I-LOC
+  * /	I-LOC
+  * S06	I-LOC
+    0902660722	O
+    0928460606	O
+    በTelegram	O
+    ለማዘዝ	O
+    ይጠቀሙ	O
+    ለተጨማሪ	O
+    ማብራሪያ	O
+    የቴሌግራም	O
+    ገፃችን	O
+    ..	O
+
+[98] Leyueqa msg_id=9901 tokens=54
+Flour Sifter የዱቄት ወንፊት ማንጓለል ሳያስፈልግዎ በእጅዎ ሲጫኑት ዱቄቱን አየመጠነ የሚያወርድ የተለያዩ ምግቦች ላይ በቀላሉ ዱቄት ለመነስነስ የሚያገለግል የማይዚግ Stainless Steel ፤ ለረጂም ግዜ የሚጠቀሙበት ለአጠቃቀም ቀላል ዋጋ፦ አድራሻ ቁጥር 1 ልደታ ወደ ባልቻ ሆስፒታል ገባ ብሎ አህመድ ህንፃ ላይ 1ኛፎቅ 114B ባሉበት ያለተጨማሪ ክፍያ ማዘዝ ይችላሉ 093344 0944109295 0933811 ዌብሳይታችንን ይጎብኙ
+----------------------------------------
+  * Flour	B-Product
+  * Sifter	I-Product
+  * የዱቄት	I-Product
+  * ወንፊት	I-Product
+  * ማንጓለል	I-Product
+  * ሳያስፈልግዎ	I-Product
+  * በእጅዎ	I-Product
+  * ሲጫኑት	I-Product
+  * ዱቄቱን	I-Product
+  * አየመጠነ	I-Product
+  * የሚያወርድ	I-Product
+  * የተለያዩ	I-Product
+  * ምግቦች	I-Product
+    ላይ	O
+    በቀላሉ	O
+    ዱቄት	O
+    ለመነስነስ	O
+    የሚያገለግል	O
+    የማይዚግ	O
+    Stainless	O
+    Steel	O
+    ፤	O
+    ለረጂም	O
+    ግዜ	O
+    የሚጠቀሙበት	O
+    ለአጠቃቀም	O
+    ቀላል	O
+    ዋጋ፦	O
+    አድራሻ	O
+  * ቁጥር	B-LOC
+  * 1	I-LOC
+  * ልደታ	I-LOC
+  * ወደ	I-LOC
+  * ባልቻ	I-LOC
+  * ሆስፒታል	I-LOC
+  * ገባ	I-LOC
+  * ብሎ	I-LOC
+  * አህመድ	I-LOC
+  * ህንፃ	I-LOC
+  * ላይ	I-LOC
+  * 1	I-LOC
+  * ኛፎቅ	I-LOC
+  * 114	I-LOC
+  * B	I-LOC
+  * ባሉበት	I-LOC
+  * ያለተጨማሪ	I-LOC
+  * ክፍያ	I-LOC
+  * ማዘዝ	I-LOC
+  * ይችላሉ	I-LOC
+  * 093344	I-LOC
+    0944109295	O
+    0933811	O
+    ዌብሳይታችንን	O
+    ይጎብኙ	O
+
+[99] AwasMart msg_id=17237 tokens=34
+Only Baby Bottle Warmer ዋጋ፦ 3,900 ብር በቴሌግራም ለማዘዝ አድራሻችን:- . ሜክሲኮ አልሳም አፓርታማ ግራውንድ ቁ. 29 +251941661030 / +251943190237 ለወዳጅዎ ስላጋሩ እናመሠግናለን ቴሌግራም ቻናል t.me/AwasMart
+----------------------------------------
+  * Only	B-Product
+  * Baby	I-Product
+  * Bottle	I-Product
+  * Warmer	I-Product
+    ዋጋ፦	O
+  * 3,900	B-PRICE
+  * ብር	I-PRICE
+    በቴሌግራም	O
+    ለማዘዝ	O
+    አድራሻችን	O
+    :-	O
+    .	O
+  * ሜክሲኮ	B-LOC
+    አልሳም	O
+    አፓርታማ	O
+    ግራውንድ	O
+    ቁ	O
+    .	O
+    29	O
+    +	O
+    251941661030	O
+    /	O
+    +	O
+    251943190237	O
+    ለወዳጅዎ	O
+    ስላጋሩ	O
+    እናመሠግናለን	O
+    ቴሌግራም	O
+    ቻናል	O
+    t	O
+    .	O
+    me	O
+    /	O
+    AwasMart	O
+
+[100] ethio_brand_collection msg_id=6287 tokens=31
+እሁድ ሁሌም ክፍት ነን Goretex High boots Size 40,41 Price 3300 birr አድራሻ-ሜክሲኮ ኮሜርስ ጀርባ መዚድ ፕላዛ የመጀመሪያ ደረጃ እንደወጡ 101 የቢሮ ቁጥር ያገኙናል or call 0920238243 EthioBrand
+----------------------------------------
+  * እሁድ	B-Product
+  * ሁሌም	I-Product
+  * ክፍት	I-Product
+  * ነን	I-Product
+  * Goretex	I-Product
+  * High	I-Product
+  * boots	I-Product
+  * Size	I-Product
+  * 40	I-Product
+  * 41	I-Product
+    Price	O
+  * 3300	B-PRICE
+  * birr	I-PRICE
+    አድራሻ	O
+    -	O
+  * ሜክሲኮ	B-LOC
+  * ኮሜርስ	I-LOC
+  * ጀርባ	I-LOC
+  * መዚድ	I-LOC
+  * ፕላዛ	I-LOC
+  * የመጀመሪያ	I-LOC
+  * ደረጃ	I-LOC
+  * እንደወጡ	I-LOC
+  * 101	I-LOC
+  * የቢሮ	I-LOC
+  * ቁጥር	I-LOC
+  * ያገኙናል	I-LOC
+    or	O
+    call	O
+    0920238243	O
+    EthioBrand	O
