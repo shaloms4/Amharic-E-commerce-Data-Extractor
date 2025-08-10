@@ -1,0 +1,14 @@
+{
+  "model_dir": "/home/shalom/Amharic-E-commerce-Data-Extractor/models/xlm-roberta-ner/best",
+  "n_posts": 1007,
+  "vendors": 6,
+  "score_weights": {
+    "posting_frequency": 0.25,
+    "avg_views": 0.3,
+    "top_post_views": 0.15,
+    "avg_price": 0.2,
+    "price_coverage": 0.1
+  },
+  "scorecard_path": "/home/shalom/Amharic-E-commerce-Data-Extractor/reports/vendor_scorecard/vendor_scorecard.csv",
+  "extractions_path": "/home/shalom/Amharic-E-commerce-Data-Extractor/reports/vendor_scorecard/post_ner_extractions.jsonl"
+}

@@ -1,0 +1,16 @@
+{
+  "model_name": "xlm-roberta-base",
+  "n_train": 70,
+  "n_validation": 30,
+  "epochs": 10,
+  "batch_size": 8,
+  "learning_rate": 3e-05,
+  "train_runtime_sec": 547.0866,
+  "eval": {
+    "eval_loss": 0.45328763127326965,
+    "eval_precision": 0.7032967032967034,
+    "eval_recall": 0.7901234567901234,
+    "eval_f1": 0.7441860465116279,
+    "eval_accuracy": 0.8769559032716927
+  }
+}
